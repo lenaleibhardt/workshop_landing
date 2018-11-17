@@ -1,0 +1,169 @@
+/* style.css */
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(250,250,250);
+  text-align: center;
+  margin: 0px;
+
+}
+h1{
+ 
+  color: rgb(250,250,250);
+  font-size: 50px;
+}
+h2 {
+
+  color: #26408B;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+
+
+
+#banner {
+  background-image: url("https://images.unsplash.com/photo-1478358161113-b0e11994a36b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a11da19e81415e5a81029aade9df7774&auto=format&fit=crop&w=668&q=80");
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  margin: 0px;
+  color: white;
+}
+
+
+.card {
+padding: 30px;
+
+}
+
+#card1 {
+  background-color: #FFEFE8
+}
+
+#card2 {
+  background-color: #FB4B4E
+}
+
+#card3 {
+  background-color: #FFD5C2
+}
+
+#card4 {
+  background-color: #FF7E68
+}
+
+.footer{
+  margin: 50px;
+}
+
+.table{
+  display: table;
+  margin: 50 auto;
+  
+}
+
+#horizontal-list {
+  list-style: none;
+
+}
+
+#horizontal-list li{
+  display: inline;
+}
+
+#horizontal-list i{
+font-size: 40px
+
+
+}
+.nav-bar {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+background-color: #FFD5C2;
+}
+
+
+.nav-bar-items a {
+color: red; 
+text-decoration: none;
+font-size: 20px;
+padding: 10px
+}
+
+.nav-bar-items a:hover {
+color: white
+}
+
+.logo i {
+  font-size: 30px;
+}
+
+
+button {
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 10px; 
+  margin: 30px;
+}
+
+button:hover {
+  font-size: 20px;
+  background-color: white;
+  color: red;
+  border: 2px solid red; 
+}
+
+
+.container {
+
+  padding: 30px;
+}
+
+.card-container {
+  height: 160px;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+
+}
+
+.card-description {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+}
+.card-description h2 {
+  font-size: 24px;
+}
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover {
+  opacity: 0.1;
+}
+
+.card-text {
+  color:white;
+  text-align: center;
+}
+
+
+}
+
+
